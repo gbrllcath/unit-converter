@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <section id="top-section">
+            <h1 id="title-header">METRIC IMPERIAL UNIT CONVERTER</h1>
+            <div id="input-container">
+                <input id="input-field"></input>
+                <div id="action-field">
+                    <button id="convert-btn">=</button>
+                    <button id="clear-btn">CLEAR</button>
+                <div>
+            </div>
+        </section>
+        
+        <section id="bottom-section">
+            <div class="card" id="length-card">
+                <div class="unit-header">
+                    <h2 class="unit-header-font">LENGTH</h2>
+                    <h2 class="unit-header-font">METERS | FEET</h2>
+                </div>
+                <div class="results-container">
+                    <p class ="results-text" id="meters-feet"></p>
+                    <p class ="results-text" id="feet-meters"></p>
+                </div>
+            </div>
+            
+            <div class="card" id="volume-card">
+                <div class="unit-header">
+                    <h2 class="unit-header-font">VOLUME</h2>
+                    <h2 class="unit-header-font">LITERS | GALLONS</h2>
+                </div>
+                <div class="results-container">
+                    <p class ="results-text" id="liters-gallons"></p>
+                    <p class ="results-text" id="gallons-liters"></p>
+                </div>
+            </div>
+            
+            <div class="card" id="mass-card">
+                <div class="unit-header">
+                    <h2 class="unit-header-font">MASS</h2>
+                    <h2 class="unit-header-font">KILOGRAMS | POUNDS</h2>
+                </div>
+                <div class="results-container">
+                    <p class ="results-text" id="kilograms-pounds"></p>
+                    <p class ="results-text" id="pounds-kilograms"></p>
+                </div>
+            </div>
+            
+            <h3 id="footer"><em>fast</em> answers for slow mental math.</h3>
+        </section>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
